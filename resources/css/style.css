@@ -9,9 +9,28 @@ h1 {
 }
 
 .header {
-  background-image:url("resources/images/flatiron.png");
+  background-image: url("file:///Users/deborah/Documents/broadway/resources/images/flatiron.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: ;
 }
 
 ul {
   list-style-type: none;
-  }
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-family: Helvetica;
+    font-size: 18px;
+    padding: 8px 16px;
+}
+
+/* Change color on hover */
+li a:hover {
+    color: black;
+}
