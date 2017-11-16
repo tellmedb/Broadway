@@ -52,22 +52,27 @@ li a:hover {
   color: white;
   font-size: 11px;
   font-family: Helvetica;
+  padding: 10px;
+}
+
+.copyright {
+  display: inline;
 }
 
 .footer ul {
-    list-style: none;
-    text-align: left;
+  list-style-type: none;
     margin: 0;
     padding: 0;
-  }
-.footer li {
-    font-family: Helvetica;
-    font-size: 16px;
+    float:right;
 }
 
-.footer a {
-    padding: 2px 10px;
-    color: white;
-    display: inline;
+.footer li {
+  display: inline;
+}
 
+.footer li a {
+    padding: 8px;
+    color: white;
+    font-size: 14px;
+}
 }
