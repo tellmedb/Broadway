@@ -1,0 +1,17 @@
+H1, H2, H3, p {
+  font-family: Helvetica;
+  text-align: center;
+  }
+
+h1 {
+  font-size: 70px;
+  color: white;
+}
+
+.header {
+  background-image:url("resources/images/flatiron.png");
+}
+
+ul {
+  list-style-type: none;
+  }
