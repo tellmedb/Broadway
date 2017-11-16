@@ -1,4 +1,4 @@
-H1, H2, H3, p {
+h1, h2, h3 {
   font-family: Helvetica;
   text-align: center;
   }
@@ -8,29 +8,68 @@ h1 {
   color: white;
 }
 
+h2 {
+  font-size: 32px;
+}
+
+h3 {font-size: 23px;
+}
+
 .header {
   background-image: url("file:///Users/deborah/Documents/broadway/resources/images/flatiron.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  padding-top: ;
 }
 
-ul {
-  list-style-type: none;
+.header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
-li a {
+.header li a {
     display: block;
+    padding: 8px 16px;
+    text-align:center;
     color: white;
-    text-align: center;
-    text-decoration: none;
     font-family: Helvetica;
     font-size: 18px;
-    padding: 8px 16px;
 }
 
-/* Change color on hover */
 li a:hover {
     color: black;
+}
+
+.center {
+  text-align: center;
+  font-size: 14px;
+  font-family: Helvetica;
+}
+
+.footer {
+  background-color: dimgray;
+  color: white;
+  font-family: Helvetica;
+  font-size: 11px;
+}
+
+.footer ul {
+  display:inline;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.footer li {
+  float: left;
+}
+
+.footer li a {
+    display: block;
+    padding: 8px;
+    color: white;
+    font-family: Helvetica;
+    font-size: 18px;
 }
